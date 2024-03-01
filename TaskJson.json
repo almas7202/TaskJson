@@ -1,1 +1,314 @@
 
+{
+    "HTML": {
+        "module1": [
+            {
+                "assignment": [
+                    {
+                        "assignment1": "./html/module1/assignments/assignment1/source/index.html"
+                    },
+                    {
+                        "assignment2": "./html/module1/assignments/assignment2/source/index.html"
+                    }
+                ]
+            },
+            {
+                "practice": [
+                    {
+                        "practice1": "./html/module1/practice/practice1/source/index.html"
+                    },
+                    {
+                        "practice2": "./html/module1/practice/practice2/source/index.html"
+                    },
+                    {
+                        "practice3": ""
+                    }
+                ]
+            }
+        ],
+        "module2": [
+            {
+                "assignment": [
+                    {
+                        "assignment1": ""
+                    }
+                ]
+            },
+            {
+                "practice": [
+                    {
+                        "practice1": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "CSS": {
+        "module1": [
+            {
+                "assignment": [
+                    {
+                        "assignment1": ""
+                    },
+                    {
+                        "assignment2": ""
+                    }
+                ]
+            },
+            {
+                "practice": [
+                    {
+                        "practice1": ""
+                    },
+                    {
+                        "practice2": ""
+                    },
+                    {
+                        "practice3": ""
+                    }
+                ]
+            }
+        ],
+        "module2": [
+            {
+                "assignment": [
+                    {
+                        "assignment1": ""
+                    }
+                ]
+            },
+            {
+                "practice": [
+                    {
+                        "practice1": ""
+                    },
+                    {
+                        "practice2": ""
+                    },
+                    {
+                        "practice3": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "JavaScript": {
+        "module1": [
+            {
+                "assignment": [
+                    {
+                        "assignment1": "./Javascript/Day1/Assignments/Assignment1/Source/assignment1/index.html"
+                    },
+                    {
+                        "assignment2": "Javascript/Day1/Assignments/Assignment2/Source/assignment2/index.html"
+                    }
+                ]
+            },
+            {
+                "practice": [
+                    {
+                        "practice1": "Javascript/Day1/Practice/Practice1/Source/exercise1.js/index.html"
+                    },
+                    {
+                        "practice2": "Javascript/Day1/Practice/Practice2/source/index.html"
+                    },
+                    {
+                        "practice3": "Javascript/Day1/Practice/Practice3/Source/index.html"
+                    },
+                    {
+                        "practice4": "Javascript/Day1/Practice/Practice4/Source/index.html"
+                    },
+                    {
+                        "practice5": "Javascript/Day1/Practice/Practice5/Source/index.html"
+                    },
+                    {
+                        "practice6": ""
+                    }
+                ]
+            }
+        ],
+        "module2": [
+            {
+                "assignment": [
+                    {
+                        "assignment1": ""
+                    },
+                    {
+                        "assignment2": ""
+                    }
+                ]
+            },
+            {
+                "practice": [
+                    {
+                        "practice1": ""
+                    },
+                    {
+                        "practice2": ""
+                    },
+                    {
+                        "practice3": ""
+                    },
+                    {
+                        "practice4": ""
+                    },
+                    {
+                        "practice5": ""
+                    },
+                    {
+                        "practice6": ""
+                    },
+                    {
+                        "practice7": ""
+                    }
+                ]
+            }
+        ],
+        "module3": [
+            {
+                "assignment": [
+                    {
+                        "assignment1": ""
+                    },
+                    {
+                        "assignment2": ""
+                    }
+                ]
+            },
+            {
+                "practice": [
+                    {
+                        "practice8": ""
+                    }
+                ]
+            }
+        ],
+        "module4": [
+            {
+                "assignment": [
+                    {
+                        "assignment1": ""
+                    },
+                    {
+                        "assignment2": ""
+                    }
+                ]
+            },
+            {
+                "practice": [
+                    {
+                        "practice1": ""
+                    },
+                    {
+                        "practice2": ""
+                    },
+                    {
+                        "practice3": ""
+                    },
+                    {
+                        "practice4": ""
+                    },
+                    {
+                        "practice5": ""
+                    },
+                    {
+                        "practice6": ""
+                    }
+                ]
+            }
+        ],
+        "module5": [
+            {
+                "assignment": [
+                    {
+                        "assignment1": ""
+                    }
+                ]
+            },
+            {
+                "practice": [
+                    {
+                        "practice1": ""
+                    },
+                    {
+                        "practice2": ""
+                    },
+                    {
+                        "practice3": ""
+                    },
+                    {
+                        "practice4": ""
+                    },
+                    {
+                        "practice5": ""
+                    },
+                    {
+                        "practice6": ""
+                    }
+                ]
+            }
+        ],
+        "module6": [
+            {
+                "assignment": [
+                    {
+                        "assignment1": ""
+                    },
+                    {
+                        "assignment2": ""
+                    }
+                ]
+            },
+            {
+                "practice": [
+                    {
+                        "practice1": ""
+                    },
+                    {
+                        "practice2": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "Jquery": {
+        "module1": [
+            {
+                "assignment": [
+                    {
+                        "assignment1": "./html/assignments/assignment1/source/index.html"
+                    }
+                ]
+            },
+            {
+                "practice": [
+                    {
+                        "practice1": ""
+                    },
+                    {
+                        "practice2": ""
+                    },
+                    {
+                        "practice3": ""
+                    }
+                ]
+            }
+        ],
+        "module2": [
+            {
+                "assignment": [
+                    {
+                        "assignment1": ""
+                    }
+                ]
+            },
+            {
+                "practice": [
+                    {
+                        "practice1": ""
+                    }
+                ]
+            }
+        ]
+    }
+}
