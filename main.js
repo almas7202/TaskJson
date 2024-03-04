@@ -32,8 +32,22 @@ $(document).ready(()=>{
             
             data[module].forEach(item => {
                 Object.keys(item).forEach(subItem => {
-                    const subItemLink = $("<a>").text(subItem).addClass("sub-item-link").attr("href", item[subItem]);
-                    const subItemListItem = $("<li>").append(subItemLink);
+                    const subItemListItem = $("<li>");
+                    if (Array.isArray(item[subItem])) { // Check if the sub-item is an array (assignments or practices)
+                        const subItemList = $("<ul>").addClass("sub-items-list");
+                        item[subItem].forEach(subSubItem => {
+                            Object.keys(subSubItem).forEach(subSubItemName => {
+                                const subSubItemLink = $("<a>").text(subSubItemName).addClass("sub-item-link").attr("href", subSubItem[subSubItemName]);
+                                const subSubItemListItem = $("<li>").append(subSubItemLink);
+                                subItemList.append(subSubItemListItem);
+                            });
+                        });
+                        const subItemHeading = $("<div>").addClass("sub-item-heading").text(subItem);
+                        subItemListItem.append(subItemHeading, subItemList);
+                    } else { // If the sub-item is not an array, it's a direct link
+                        const subItemLink = $("<a>").text(subItem).addClass("sub-item-link").attr("href", item[subItem]);
+                        subItemListItem.append(subItemLink);
+                    }
                     subItemsList.append(subItemListItem);
                 });
             });
@@ -47,6 +61,8 @@ $(document).ready(()=>{
             sidebaar.append(moduleContainer);
         });
     }
+    
+    
     
     
     
